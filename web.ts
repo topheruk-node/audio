@@ -1,3 +1,5 @@
+const FREQ_MAX = 24000;
+
 const defaultContext = new AudioContext();
 
 type CreateEffect = (params: {
@@ -9,8 +11,8 @@ type CreateEffect = (params: {
 export const createEffectNode: CreateEffect = ({ type, value }, ctx = defaultContext) => {
     switch (type) {
         case "lowpass":
-        case "highpass": return createBiquadFilter(ctx, { type, value });
-        case "pan": return createStereoPanner(ctx, { value });
+        case "highpass": return createBiquadFilter(ctx, { type, value: value * FREQ_MAX });
+        case "pan": return createStereoPanner(ctx, { value: (value * 2) - 1 });
         default: return createGain(ctx, { value });
     }
 };

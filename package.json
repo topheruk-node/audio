@@ -1,0 +1,25 @@
+{
+    "name": "@topheruk/audio",
+    "version": "0.0.1",
+    "description": "Library with functionality that can interact with the Web Audio API",
+    "main": "mod.ts",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+ssh://git@github.com/topheruk-node/audio.git"
+    },
+    "keywords": [
+        "web",
+        "audio",
+        "custom",
+        "elements"
+    ],
+    "author": "Rahim Afful-Brown",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/topheruk-node/audio/issues"
+    },
+    "homepage": "https://github.com/topheruk-node/audio#readme"
+}

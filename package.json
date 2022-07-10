@@ -24,5 +24,8 @@
     "homepage": "https://github.com/topheruk-node/audio#readme",
     "dependencies": {
         "lit": "^2.2.6"
+    },
+    "devDependencies": {
+        "@types/audioworklet": "^0.0.29"
     }
 }

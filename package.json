@@ -1,5 +1,5 @@
 {
-    "name": "@topheruk/audio",
+    "name": "@hyphenode/audio",
     "version": "0.0.1",
     "description": "Library with functionality that can interact with the Web Audio API",
     "main": "mod.ts",
@@ -8,7 +8,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+ssh://git@github.com/topheruk-node/audio.git"
+        "url": "git+ssh://git@github.com/hyphenode/audio.git"
     },
     "keywords": [
         "web",
@@ -19,9 +19,9 @@
     "author": "Rahim Afful-Brown",
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/topheruk-node/audio/issues"
+        "url": "https://github.com/hyphenode/audio/issues"
     },
-    "homepage": "https://github.com/topheruk-node/audio#readme",
+    "homepage": "https://github.com/hyphenode/audio#readme",
     "dependencies": {
         "lit": "^2.2.6"
     },
